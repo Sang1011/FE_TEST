@@ -1,0 +1,2 @@
+export const DEFAULT_THUMBNAIL = "https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-vector-picture-icon-png-image_695350.jpg"
+export const NO_DATA_FOUND_THUMBNAIL= "https://res.cloudinary.com/dfrn7ujle/image/upload/v1737464147/no-result-document-file-data-600nw-2293706569_npviqq.webp"
