@@ -1,5 +1,6 @@
 import { Header, Sider } from "@/components";
 import { ProductList } from "@/components/product";
+import { Category } from "@/models";
 import { Row, Col } from "antd";
 
 async function fetchCategories() {
@@ -9,7 +10,7 @@ async function fetchCategories() {
 }
 
 export default async function Home() {
-  const [categories] = await Promise.all([fetchCategories()]);
+  const categories: Category[] = await fetchCategories();
   return (
     <>
       <Header/>
